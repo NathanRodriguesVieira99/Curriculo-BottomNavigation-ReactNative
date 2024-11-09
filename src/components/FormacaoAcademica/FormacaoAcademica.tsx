@@ -5,6 +5,7 @@ export default function FormacaoAcademica() {
   return (
     <View>
       <Text>Formação Acadêmica</Text>
+
     </View>
   )
 }

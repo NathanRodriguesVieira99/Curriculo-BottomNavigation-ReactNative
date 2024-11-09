@@ -5,7 +5,7 @@ import { Ionicons, FontAwesome, MaterialCommunityIcons } from '@expo/vector-icon
 export default function Techs() {
   return (
     <>
-      <Text style={s.linguagens}>Linguagens</Text>
+      <Text style={s.linguagens}>Linguagens e Frameworks</Text>
       <View style={s.techsContainer}>
         <View style={s.iconContainer}>
           <Ionicons name="logo-html5" size={50} color="#e44d26" />
@@ -48,14 +48,14 @@ const s = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: 50
+    gap: 50,
   },
   linguagens: {
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
-    top: 28
+    top: 33
   },
   iconContainer: {
     alignItems: 'center',

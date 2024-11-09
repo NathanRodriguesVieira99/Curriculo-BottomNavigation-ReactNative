@@ -20,9 +20,17 @@ export default function Layout() {
           marginBottom: 4,
         },
       }}
-      initialRouteName='Home'
     >
       <Tabs.Screen
+        name='index'
+        options={{
+          title: 'Perfil',
+          tabBarIcon: ({ focused, color, size }) => (
+            <Ionicons name="person" size={24} color={focused ? 'blue' : 'gray'} />
+          ),
+        }}
+      />
+      {/* <Tabs.Screen
         name="tabs/Profile"
         options={{
           tabBarLabel: "Perfil",
@@ -30,7 +38,7 @@ export default function Layout() {
             <Ionicons name="person" size={24} color={focused ? 'blue' : 'gray'} />
           ),
         }}
-      />
+      /> */}
 
       <Tabs.Screen
         name="tabs/Academic"
