@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function SoftSkills() {
   return (
-    <View>
+    <View style={{ justifyContent: 'center', alignItems: 'center', top: 45 }}>
       <Text>SoftSkills</Text>
     </View>
   )
